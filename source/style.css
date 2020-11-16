@@ -12,11 +12,6 @@ a {
     height: 100vh;
     background: url("../source/image/home.jpg") center no-repeat;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1000;
 }
 
 .intro {
@@ -31,11 +26,13 @@ a {
 
 .logo {
     padding-left: 115px;
+    width: 250px;
+    height: 105px;
 }
 .main_menu {
     text-transform: uppercase;
     font-size: 18px;
-    padding-right: 115px;
+    padding-right: 75px;
 }
 
 .menu_a { 
@@ -78,9 +75,8 @@ a {
 .menu_a:hover:before {
     opacity: 1;
 }
-
+/*intro*/
 .intro_text {
-    width: 100%;
     max-width: 1300px;
     margin: 160px auto;
     line-height: 1.4;
@@ -106,16 +102,51 @@ a {
     font-size: 16px;
     margin-bottom: 55px;
 }
+/*arrows*/
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow_left {
+    background: url("../source/image/left.png") center no-repeat;
+    display:block;
+    width: 30px; 
+    height: 30px;
+}
+
+.arrow_left:hover {
+    background: url("../source/image/left_active.png") center no-repeat;
+}
+
+.arrow_left:hover {
+    background-image: url("../source/image/left_active.png") center no-repeat;
+}
+
+.arrow_right{
+    background: url("../source/image/right.png") center no-repeat;
+    display:block;
+    width: 20px; 
+    height: 30px;
+}
+
+.arrow_right:hover {
+    background: url("../source/image/right_active.png") center no-repeat;
+}
+
 
 /*Buttons*/
+.intro_btns {
+    line-height: 2.3;
+}
 
 .btn {
     display: inline-block;
     background-color: #131313;
     color: #fff;
     font-family: "Raleway";
-    font-size: 30px;
-    text-align: center;
+    font-size: 20px;
     width: 170px;
     height: 50px;
     text-transform: uppercase;
