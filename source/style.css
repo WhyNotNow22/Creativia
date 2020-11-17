@@ -91,9 +91,18 @@ a {
     text-align: center;
 }
 
-.main_word {
+.white_word {
     color: white;
 }
+
+.black_word {
+    color: #262626;
+}
+
+.red_word {
+    color:  #ff0036;
+}
+
 
 .intro_discription {
     text-align: center;
@@ -122,9 +131,6 @@ a {
     background: url("../source/image/left_active.png") center no-repeat;
 }
 
-.arrow_left:hover {
-    background-image: url("../source/image/left_active.png") center no-repeat;
-}
 
 .arrow_right{
     padding-top: 160px;
@@ -160,3 +166,71 @@ a {
 .btn:hover {
     background-color: #ff0036;
 }
+
+/*SecondPart*/
+
+.about_creativia {
+    width: 100%;
+    height: 1175px;
+    box-sizing: border-box;
+    padding: 90px 115px;
+}
+
+
+.about_suptitle {
+    text-align: center;
+    color: black;
+    font-family: "Lato";
+    font-size: 16px;
+}
+
+.about_discription {
+    width: 570px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discription_main {
+    color: #505050;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.shell {
+    margin: 5px;
+    width: 570px;
+    height: 45px;
+    background-color: #f7f7f7;
+    border: 2px solid #e7e7e7;
+    color: #262626;
+    font-family: "Raleway";
+    font-size: 20px;
+    display: flex;
+    transition: color 0.2s linear;
+}
+
+.shell p {
+    margin: auto 30px;
+}
+
+.plus {
+    border-right: 2px solid #e7e7e7;
+    padding: 12px;
+    width: 20px; 
+    height: 20px;
+    background: url("../source/image/Shape1.png") center no-repeat;
+    background-size: 20px;
+    transition: background 0.1s linear;
+}
+
+.shell:hover {
+    color: #ff0036;
+}
+
+.shell:hover .plus {
+    background: url("../source/image/Shape2.png") center no-repeat;
+}
+
