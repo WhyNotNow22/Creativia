@@ -257,3 +257,63 @@ a {
 .disc-img {
     display: flex;
 }
+
+/*Slider*/
+.slider {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+/*About Icons*/
+.about_icons {
+    display: flex;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.icon {
+    margin: 0 15px;
+}
+
+.img_general {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.icon_img1 {
+    background: url("../source/image/icon1.png") center no-repeat;
+}
+
+.icon_img2 {
+    background: url("../source/image/icon2.png") center no-repeat;
+}
+
+.icon_img3 {
+    background: url("../source/image/icon3.png") center no-repeat;
+}
+
+.icon_img4 {
+    background: url("../source/image/icon4.png") center no-repeat;
+}
+
+.icon_img1:hover,
+.icon_img2:hover,
+.icon_img3:hover,
+.icon_img4:hover {
+    background: url("../source/image/icon1.png") center no-repeat;
+}
+
+.icon_title {
+    font-size: 20px;
+    font-family: "Lato";
+    text-transform: uppercase;
+    color: #262626;
+}
+
+.icon_disc {
+    font-size: 16px;
+    font-family: "Lato";
+    color: #505050;
+}
