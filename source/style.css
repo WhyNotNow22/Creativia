@@ -89,6 +89,7 @@ a {
     font-weight: bold;
     color: #ff0036;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .white_word {
@@ -182,6 +183,7 @@ a {
     color: black;
     font-family: "Lato";
     font-size: 16px;
+    padding-bottom: 90px;
 }
 
 .about_discription {
@@ -197,10 +199,11 @@ a {
     font-size: 16px;
     line-height: 20px;
     text-align: justify;
+    padding-bottom: 35px;
 }
 
 .shell {
-    margin: 5px;
+    margin-top: 10px;
     width: 570px;
     height: 45px;
     background-color: #f7f7f7;
@@ -234,3 +237,23 @@ a {
     background: url("../source/image/Shape2.png") center no-repeat;
 }
 
+.hidden_text {
+    width: 100%;
+    border: 2px solid #e7e7e7;
+    border-top: none;
+    font-size: 14px;
+    font-family: "Lato";
+    color:#505050;
+    line-height: 1.4;
+}
+
+.group_img {
+    position: absolute;
+    max-width: 740px;
+    top: 140%;
+    left: 45%;
+}
+
+.disc-img {
+    display: flex;
+}
