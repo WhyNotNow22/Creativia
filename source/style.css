@@ -414,13 +414,103 @@ a {
     opacity: 1;
 }
 
-
-
-
 .slider2 {
     position: absolute;
     top: 1063px;
     left: calc(50% - 259px);
 }
 
+/*fourth*/
 
+.fouth_section {
+    box-sizing: border-box;
+    width: 1400px;
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.third_title {
+    font-size: 30px;
+    font-family: "Raleway";
+    color: black; 
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.third_disc {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: #505050; 
+    font-weight: bold;
+    margin-bottom: 170px;
+    margin-top: 0;
+}
+
+.lists_img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_list,
+.right_list {
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left_list {
+    margin-left: 115px;
+}
+
+.right_list {
+    margin-right: 115px;
+}
+
+
+.list_item {
+    border: 2px solid #e7e7e7;
+    width: 370px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: #262626; 
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s linear;
+    transition: border 0.4s linear;
+}
+
+.list_item:hover {
+    border: 2px solid #ff0036;
+    background-color: #ff0036;
+    color: white;
+}
+
+.list_item:hover .select {
+    background: url(../source/image/select_red.png) center no-repeat;
+}
+
+.left_item_fix {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phone {
+    position: absolute;
+    top: 215px;
+    left: 438px;
+}
+
+.select {
+    background: url(../source/image/select.png) center no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: auto 15px;
+}
