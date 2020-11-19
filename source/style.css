@@ -435,7 +435,7 @@ a {
 .third_title {
     font-size: 30px;
     font-family: "Raleway";
-    color: black; 
+    color: white; 
     font-weight: bold;
     margin-top: 90px;
     margin-bottom: 50px;
@@ -465,11 +465,11 @@ a {
 }
 
 .left_list {
-    margin-left: 115px;
+    margin-left: 110px;
 }
 
 .right_list {
-    margin-right: 115px;
+    margin-right: 110px;
 }
 
 
@@ -513,4 +513,10 @@ a {
     width: 50px;
     height: 50px;
     margin: auto 15px;
+}
+
+.slider3 {
+    position: absolute;
+    top: 1063px;
+    left: calc(50% - 259px);
 }
