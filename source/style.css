@@ -544,6 +544,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .fifth_title {
@@ -656,11 +657,147 @@ a {
     right: 0;
     bottom: 0;
     background:rgba(0,0,0,0.5);
-    border: 2px solid #ff0036;
+    border: 1px solid #ff0036;
     opacity: 0;
 }
 
 .client_choose:hover:after
 {
     opacity: 1;
+}
+
+.slider3 {
+    position: absolute;
+    top: 643px;
+    left: calc(50% - 259px);
+}
+
+/*six section */
+.six_section {
+    box-sizing: border-box;
+    width: 1400px;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.six_title {
+    font-size: 30px;
+    font-family: "Raleway";
+    color: black; 
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+
+.six_disc {
+    font-size: 16px;
+    font-family: "Lato";
+    color: #505050; 
+    font-weight: bold;
+    margin-bottom: 95px;
+    margin-top: 0px;
+}
+
+.profiles {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_block {
+    border: 1px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_block:hover {
+    border: 1px solid #262626;
+}
+
+.profile_block:hover .FIO{
+    color: #ff0036;
+}
+
+.profile_block:hover .profile{
+    background: url("../source/image/social.png") center no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    width: 265px;
+    height: 245px;
+}
+
+.photo1{
+    background: url("../source/image/profile1.png") center no-repeat;
+    background-size: cover;
+}
+.photo2{
+    background: url("../source/image/profile2.png") center no-repeat;
+    background-size: cover;
+}
+.photo3{
+    background: url("../source/image/profile3.png") center no-repeat;
+    background-size: cover;
+}
+.photo4{
+    background: url("../source/image/profile4.png") center no-repeat;
+    background-size: cover;
+}
+.FIO {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: #262626; 
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: color 0.2s linear;
+}
+
+.profession {
+    font-size: 16px;
+    font-family: "Lato";
+    color: #505050; 
+    font-weight: normal;
+}
+
+.slider4 {
+    margin-top: 100px;
+}
+
+/*Our skills*/
+.progress {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+svg {
+    width: 200px; 
+    height: 200px;
+}
+
+.progress_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress_title {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: #262626; 
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.progress_disc {
+    font-size: 16px;
+    font-family: "Lato";
+    color: #505050; 
+    font-weight: normal;
+    text-align: center;
 }
